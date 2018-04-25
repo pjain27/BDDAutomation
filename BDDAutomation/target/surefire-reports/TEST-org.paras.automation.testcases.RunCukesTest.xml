@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="0" name="org.paras.automation.testcases.RunCukesTest" time="0.133" errors="0" skipped="6">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_111\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\IDCS_SVN\QA\Automation\LatestIDCSProject\IDCS Workspace\BDDAutomation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\IDCS_SVN\QA\Automation\LatestIDCSProject\IDCS Workspace\BDDAutomation"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_111\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\PARAS~1.JAI\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\IDCS_SVN\QA\Automation\LatestIDCSProject\IDCS Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6038789284909931319.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\Users\paras.jain\Desktop\IDCS\eclipse\plugins\org.apache.ant_1.9.6.v201510161327/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Common Files\Lenovo;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\TortoiseSVN\bin;%CATALINA_HOME%\bin;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files (x86)\Google\Google Apps Sync\;C:\Program Files\Google\Google Apps Sync\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\PuTTY\;C:\Users\paras.jain\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\paras.jain\AppData\Local\Programs\Python\Python36\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Common Files\Lenovo;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\TortoiseSVN\bin;C:\Users\paras.jain\Desktop\EclipseEE\Tomcat\apache-tomcat-8.0.39\bin;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files (x86)\Google\Google Apps Sync\;C:\Program Files\Google\Google Apps Sync\;C:\Users\paras.jain\Desktop\IDCS\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\paras.jain"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="paras.jain"/>
+    <property name="java.class.path" value="/C:/Users/paras.jain/Desktop/IDCS/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_111"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_111\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_111\lib\resources.jar;C:\Program Files\Java\jre1.8.0_111\lib\rt.jar;C:\Program Files\Java\jre1.8.0_111\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_111\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_111\lib\jce.jar;C:\Program Files\Java\jre1.8.0_111\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_111\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_111\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\IDCS_SVN\QA\Automation\LatestIDCSProject\IDCS Workspace\BDDAutomation\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Given User is on login page   " name="Given User is on login page   " time="0.02">
+    <skipped/>
+    <system-out>Feature: Facebook Login Functionality
+
+  Scenario: Login with valid credentials &amp;#27;[90m# src.test.resources\org\paras\automation\testcases\LoginTestCases.feature:2&amp;#27;[0m
+    &amp;#27;[90mGiven &amp;#27;[0m&amp;#27;[90mUser is on login page&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="When User enters username    " name="When User enters username    " time="0.022">
+    <skipped/>
+    <system-out>&amp;#27;[1A    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mUser is on login page&amp;#27;[0m
+    &amp;#27;[90mWhen &amp;#27;[0m&amp;#27;[90mUser enters username&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="And User enters Password     " name="And User enters Password     " time="0.022">
+    <skipped/>
+    <system-out>&amp;#27;[1A    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser enters username&amp;#27;[0m
+    &amp;#27;[90mAnd &amp;#27;[0m&amp;#27;[90mUser enters Password&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="And User click on Signin button      " name="And User click on Signin button      " time="0.023">
+    <skipped/>
+    <system-out>&amp;#27;[1A    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mUser enters Password&amp;#27;[0m
+    &amp;#27;[90mAnd &amp;#27;[0m&amp;#27;[90mUser click on Signin button&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Then User logged in successfully       " name="Then User logged in successfully       " time="0.023">
+    <skipped/>
+    <system-out>&amp;#27;[1A    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mUser click on Signin button&amp;#27;[0m
+    &amp;#27;[90mThen &amp;#27;[0m&amp;#27;[90mUser logged in successfully&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Login with valid credentials  " name="Scenario: Login with valid credentials  " time="0.023">
+    <skipped/>
+    <system-out>&amp;#27;[1A    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mUser logged in successfully&amp;#27;[0m
+</system-out>
+  </testcase>
+</testsuite>

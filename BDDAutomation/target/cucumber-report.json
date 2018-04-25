@@ -1,0 +1,51 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "facebook-login-functionality;login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "line": 3,
+            "name": "User is on login page",
+            "keyword": "Given "
+          },
+          {
+            "line": 4,
+            "name": "User enters username",
+            "keyword": "When "
+          },
+          {
+            "line": 5,
+            "name": "User enters Password",
+            "keyword": "And "
+          },
+          {
+            "line": 6,
+            "name": "User click on Signin button",
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User logged in successfully",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Login Functionality",
+    "description": "",
+    "id": "facebook-login-functionality",
+    "keyword": "Feature",
+    "uri": "src.test.resources\\org\\paras\\automation\\testcases\\LoginTestCases.feature"
+  }
+]
